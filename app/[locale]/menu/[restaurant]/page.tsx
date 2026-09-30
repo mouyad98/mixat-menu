@@ -39,7 +39,7 @@ export default async function MenuPage({ params }: Props) {
       .map((p) => ({
         id: p.id,
         name: isAr ? p.name_ar || p.name_en : p.name_en,
-        price: `$${p.price}`,
+        price: `${p.price}`,
         description: isAr
           ? p.description_ar || p.description_en || undefined
           : p.description_en || undefined,
