@@ -14,8 +14,12 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: "Digital Menu",
-  description: "Zero-cost digital restaurant menu",
+  title: "Mixat Menu",
+  description: "تصفّح منيو ميكسات",
+  openGraph: {
+    title: "Mixat Menu",
+    description: "تصفّح منيو ميكسات",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
